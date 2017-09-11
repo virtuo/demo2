@@ -1,0 +1,106 @@
+.portrait {
+  width: 100%;
+  max-width: 200px;
+  float: right;
+}
+
+.portrait_about {
+  float: left;
+  width: 100%;
+  max-width: 400px;
+  margin-right: 20px;
+}
+
+.portrait_bureau {
+  float: left;
+  width: 100%;
+  max-width: 400px;
+  margin-right: 20px;
+}
+
+.portrait_companies {
+  float: right;
+  max-width: 400px;
+  width: 100%;
+  margin-left: 20px;
+}
+
+/* Custom */
+
+p {
+	font-size: larger;
+}
+
+#header {
+	height: 60px;
+}
+
+#page-wrapper h1 {
+		margin-left: 80px;
+		line-height: 1em;
+		margin-top: 10px;
+}
+
+#header img {
+	height: 100%;
+}
+
+#fg_logo {
+	display: inline-block;
+}
+
+#fg_logo img {
+	margin-top: 15px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+/*#main.container.index {
+	position:absolute;
+	bottom: 0;
+	padding-bottom: 0;
+	min-width: 80%;
+	left: 0;
+	right: 0;
+}*/
+
+/* Banner */
+#banner h2 {
+	font-weight: bolder;
+}
+
+#banner.index { height: 100vh;}
+
+#banner.index { background-image: url("images/overlay.png"), url("/assets/img/companies.jpg");}
+#banner.companies { background-image: url("images/overlay.png"), url("/assets/img/prime2.jpg");}
+#banner.about { background-image: url("images/overlay.png"), url("/assets/img/hikers.jpg");}
+#banner.candidates { background-image: url("images/overlay.png"), url("/assets/img/hiking.jpg");}
+#banner.contact { background-image: url("images/overlay.png"), url("/assets/img/contact.jpg");}
+#banner.not_found { background-image: url("images/overlay.png"), url("/assets/img/not_found.jpg");}
+
+@media screen and (max-width: 1920px) {
+}
+
+@media screen and (max-width: 1680px) {
+/*#banner.index { background-image: url("images/overlay.png"), url("/assets/img/banner_index_1680.jpg");}*/
+}
+
+@media screen and (max-width: 1280px) {
+/*#banner.index { background-image: url("images/overlay.png"), url("/assets/img/banner_index_1280.jpg");}*/
+}
+
+@media screen and (max-width: 980px) {
+/*#banner.index { background-image: url("images/overlay.png"), url("/assets/img/banner_index_980.jpg");}*/
+}
+
+@media screen and (max-width: 840px) {
+/*#banner.index { background-image: url("images/overlay.png"), url("/assets/img/banner_index_840.jpg");}*/
+}
+
+@media screen and (max-width: 736px) {
+/*#banner.index { background-image: url("images/overlay.png"), url("/assets/img/banner_index_736.jpg");}*/
+}
+
+@media screen and (max-width: 480px) {
+/*#banner.index { background-image: url("images/overlay.png"), url("/assets/img/banner_index_480.jpg");}*/
+}

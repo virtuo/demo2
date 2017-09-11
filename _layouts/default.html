@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang }}">
+  <head>
+    {% include head.html %}
+  </head>
+
+  <body class="landing">
+    <div id="page-wrapper">
+      <header id="header" class="alt">
+        {% include header_logo.html %}
+        {% include nav_menu.html %}
+      </header>
+
+      <section id="banner" class="{{ page.class }}">
+        <h2>{{ page.title }}</h2>
+      </section>
+
+      <section id="main" class="container">
+        <section class="box">
+          {{ content }}
+          <div style="clear:both"></div>
+        </section>
+      </section>
+
+    </div>
+    {% include scripts.html %}
+  </body>
+</html>
