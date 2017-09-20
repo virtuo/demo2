@@ -9,7 +9,7 @@ lang: en
 
 <img src="/assets/img/claire_debout.jpg" class="portrait_about"/>
 
-### Master in Business Management from ESCP European Business School
+**Master in Business Management from ESCP European Business School**
 
 Claire Garwacki is an acknowledged Swiss based headhunter, specialized in
 Corporate Finance.
