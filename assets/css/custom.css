@@ -86,7 +86,7 @@ p {
 #banner.index { height: 100vh;}
 
 #banner.index { background-image: url("images/overlay.png"), url("/assets/img/companies.jpg");}
-#banner.companies { background-image: url("images/overlay.png"), url("/assets/img/prime2.jpg");}
+#banner.companies { background-image: url("images/overlay.png"), url("/assets/img/rock_climber.jpg");}
 #banner.about { background-image: url("images/overlay.png"), url("/assets/img/hikers.jpg");}
 #banner.candidates { background-image: url("images/overlay.png"), url("/assets/img/hiking.jpg");}
 #banner.contact { background-image: url("images/overlay.png"), url("/assets/img/contact.jpg");}
